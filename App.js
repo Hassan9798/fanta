@@ -1,19 +1,15 @@
-import React from 'react';
+import 'react-native-gesture-handler';
 import {SafeAreaView, Text, View} from 'react-native';
-
-function App() {
+import { NavigationContainer } from '@react-navigation/native';
+import MainNavigation from './src/navigation/MainNavigation';
+const App=()=> {
   return (
-    <SafeAreaView>
-      <View>
-        <Text
-          style={{
-            fontSize: 40,
-            fontFamily: '',
-          }}>
-          Fanta
-        </Text>
-      </View>
+    <NavigationContainer> 
+      <SafeAreaView style={{flex:1}}>
+      <MainNavigation/>
     </SafeAreaView>
+    </NavigationContainer>  
+   
   );
 }
 
