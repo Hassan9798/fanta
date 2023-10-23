@@ -1,10 +1,18 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
+import {SafeAreaView, Text, View} from 'react-native';
 
 function App() {
   return (
     <SafeAreaView>
-      <Text>Fanta</Text>
+      <View>
+        <Text
+          style={{
+            fontSize: 40,
+            fontFamily: '',
+          }}>
+          Fanta
+        </Text>
+      </View>
     </SafeAreaView>
   );
 }
