@@ -6,6 +6,7 @@ const coldDrinkGif = require('../assets/images/cold-drink.gif');
 const menu = require('../assets/images/menu.png');
 const cart = require('../assets/images/cart.png');
 const back = require('../assets/images/back.png');
+const close = require('../assets/images/close.png');
 
 export const images = {headerImage1, headerImage2, headerImage3, coldDrinkGif};
-export const icons = {menu, cart, back};
+export const icons = {menu, cart, back, close};

@@ -8,8 +8,10 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 30,
     paddingVertical: 50,
   },
+  scroll: {
+    backgroundColor: 'yellow',
+  },
   top: {
-    // backgroundColor: 'yellow',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -19,15 +21,36 @@ export const styles = StyleSheet.create({
     fontFamily: 'Montreal',
     fontSize: 22,
   },
+  content: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+  },
   userInfo: {
-    // backgroundColor: 'yellow',
+    marginTop: 40,
+  },
+  navItems: {
+    marginVertical: 16,
+    rowGap: 24,
+  },
+  bottom: {
+    marginVertical: 16,
+  },
+  text: {
+    fontFamily: 'Montreal',
+    color: colors.white,
+    textTransform: 'uppercase',
   },
   largeText: {
-    fontFamily: 'Montreal',
-    color: colors.white,
+    fontSize: 42,
   },
   smallText: {
-    fontFamily: 'Montreal',
-    color: colors.white,
+    fontSize: 22,
+  },
+  settings: {
+    marginTop: 8,
+  },
+  lightBlueText: {
+    color: colors.lightBlue,
   },
 });
