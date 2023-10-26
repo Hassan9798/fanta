@@ -9,7 +9,7 @@ const MyDrawer = () => {
     <Drawer.Navigator
       defaultStatus="closed"
       initialRouteName="Home"
-      drawerContent={() => <CustomDrawer />}
+      drawerContent={props => <CustomDrawer {...props} />}
       screenOptions={{
         headerShown: false,
         drawerStyle: {

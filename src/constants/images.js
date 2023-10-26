@@ -11,6 +11,7 @@ const marindaBrand = require('../assets/images/marindaBrand.png');
 const menu = require('../assets/images/menu.png');
 const cart = require('../assets/images/cart.png');
 const back = require('../assets/images/back.png');
+const close = require('../assets/images/close.png');
 
 export const images = {
     headerImage1, 
@@ -24,4 +25,4 @@ export const images = {
     shaniBrand,
     marindaBrand
 };
-export const icons = {menu, cart, back};
+export const icons = {menu, cart, back, close};
