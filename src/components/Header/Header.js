@@ -76,9 +76,6 @@ const Header = ({
           </Text>
         </Pressable>
         {!noCart && (
-          // <TouchableOpacity style={styles.cartIconContainer}>
-          //   <Image source={icons.cart} style={styles.cartIcon} />
-          // </TouchableOpacity>
           <IconCircleButton icon={icons.cart} />
         )}
       </View>
@@ -118,6 +115,7 @@ const Header = ({
                   </TouchableOpacity>
                 );
               }}
+              numColumns={2}
               horizontal
               showsHorizontalScrollIndicator={false}
               contentContainerStyle={styles.titleSlider}

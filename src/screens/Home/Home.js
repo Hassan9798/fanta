@@ -1,10 +1,16 @@
 import {View} from 'react-native';
-import Header from '../components/Header/Header';
+import Header from '../../components/Header/Header';
+import Brands from '../../components/Brands/Brands';
+import { style } from './styles';
+
 
 const Home = ({navigation}) => {
   return (
-    <View>
+    <View >
       <Header isHome />
+      <View style={style.brandSlider}>
+      <Brands/>
+      </View>
       {/* <Button
         title="Products"
         onPress={() => navigation.navigate('Products')}

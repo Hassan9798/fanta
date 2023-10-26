@@ -1,5 +1,5 @@
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import Home from '../screens/Home';
+import Home from '../screens/Home/Home';
 import SpecialDeals from '../screens/SpecialDeals';
 import CustomDrawer from '../components/Drawer/Drawer';
 
