@@ -1,20 +1,16 @@
 import {View} from 'react-native';
 import Header from '../../components/Header/Header';
 import Brands from '../../components/Brands/Brands';
-import { style } from './styles';
-
+import {style} from './styles';
+import StrokedText from '../../components/StrokedText/StrokedText';
 
 const Home = ({navigation}) => {
   return (
-    <View >
+    <View>
       <Header isHome />
       <View style={style.brandSlider}>
-      <Brands/>
+        <Brands />
       </View>
-      {/* <Button
-        title="Products"
-        onPress={() => navigation.navigate('Products')}
-      /> */}
     </View>
   );
 };

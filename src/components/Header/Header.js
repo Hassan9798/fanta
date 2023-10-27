@@ -75,9 +75,7 @@ const Header = ({
             {isHome ? 'Menu' : 'Home'}
           </Text>
         </Pressable>
-        {!noCart && (
-          <IconCircleButton icon={icons.cart} />
-        )}
+        {!noCart && <IconCircleButton icon={icons.cart} />}
       </View>
       {isHome && (
         <Pressable onPress={changeItem}>
