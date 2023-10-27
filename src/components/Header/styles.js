@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
   },
   headerImage: {
     width,
-    height: 360,
+    height: 320,
     objectFit: 'fill',
   },
   top: {
