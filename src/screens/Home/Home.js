@@ -28,7 +28,7 @@ const Home = ({navigation}) => {
     <ScrollView style={{backgroundColor:"#FFFFFF"}} >
       <Header isHome />
       <View style={style.brandSlider}>
-      <Brands/>
+      <Brands navigation={navigation}/>
       </View>
       <HomeSlider data={categories} bottomText={true} marginTop={50} slider1={true}/>
       <HomeSlider data={snacks} topText={true} />

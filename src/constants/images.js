@@ -24,6 +24,9 @@ const snack3 = require('../assets/images/snack3.jpg');
 const snack4 = require('../assets/images/snack4.jpg');
 const footerImg1 = require('../assets/images/footerImg1.png');
 const footerImg2 = require('../assets/images/footerImg2.png');
+const product1 = require('../assets/images/product1.png');
+const addIcon = require('../assets/images/addIcon.png');
+const removeIcon = require('../assets/images/removeIcon.png');
 export const images = {
     footerImg2,
     footerImg1,
@@ -31,6 +34,7 @@ export const images = {
     headerImage2,
     headerImage3,
     coldDrinkGif,
+    product1,
     UPBrand,
     dewBrand,
     liptonBrand,
@@ -48,4 +52,4 @@ export const images = {
     snack3,
     snack4
 };
-export const icons = {menu, cart, back, close};
+export const icons = {menu, cart, back, close ,addIcon ,removeIcon};
