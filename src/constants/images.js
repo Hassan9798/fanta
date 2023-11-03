@@ -12,8 +12,21 @@ const menu = require('../assets/images/menu.png');
 const cart = require('../assets/images/cart.png');
 const back = require('../assets/images/back.png');
 const close = require('../assets/images/close.png');
-
+const specialOffer = require('../assets/images/SpecialOffer.png');
+const category1 = require('../assets/images/category1.png');
+const category2 = require('../assets/images/category2.png');
+const category3 = require('../assets/images/category3.png');
+const category4 = require('../assets/images/category4.png');
+const snack = require('../assets/images/snack.jpg');
+const snack1 = require('../assets/images/snack1.jpg');
+const snack2 = require('../assets/images/snack2.jpg');
+const snack3 = require('../assets/images/snack3.jpg');
+const snack4 = require('../assets/images/snack4.jpg');
+const footerImg1 = require('../assets/images/footerImg1.png');
+const footerImg2 = require('../assets/images/footerImg2.png');
 export const images = {
+    footerImg2,
+    footerImg1,
     headerImage1, 
     headerImage2,
     headerImage3,
@@ -23,6 +36,16 @@ export const images = {
     liptonBrand,
     pepsiBrand,
     shaniBrand,
-    marindaBrand
+    marindaBrand,
+    specialOffer,
+    category1,
+    category2,
+    category3,
+    category4,
+    snack,
+    snack1,
+    snack2,
+    snack3,
+    snack4
 };
 export const icons = {menu, cart, back, close};

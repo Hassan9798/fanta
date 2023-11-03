@@ -1,0 +1,87 @@
+[
+  {
+    "key": "NOTFOUND",
+    "en": "Not Found",
+    "ar": "غير معثور عليه"
+  },
+  {
+    "key": "menu",
+    "en": "Menu",
+    "ar": ""
+  },
+  {
+    "key": "languageToggle",
+    "en": "العربية",
+    "ar": "English"
+  },
+  {
+    "key": "home",
+    "en": "Home",
+    "ar": ""
+  },
+  {
+    "key": "hey",
+    "en": "Hey",
+    "ar": ""
+  },
+  {
+    "key": "mashael",
+    "en": "Mashael",
+    "ar": ""
+  },
+  {
+    "key": "settings",
+    "en": "Settings",
+    "ar": ""
+  },
+  {
+    "key": "specialDeals",
+    "en": "Special Deals",
+    "ar": ""
+  },
+  {
+    "key": "yourOrders",
+    "en": "Your Orders",
+    "ar": ""
+  },
+  {
+    "key": "contactUs",
+    "en": "Contact Us",
+    "ar": ""
+  },
+  {
+    "key": "termsAndConditions",
+    "en": "Terms and Conditions",
+    "ar": ""
+  },
+  {
+    "key": "2023Menabev",
+    "en": "2023 Menabev",
+    "ar": ""
+  },
+  {
+    "key": "softDrinks",
+    "en": "Soft Drinks",
+    "ar": ""
+  },
+  {
+    "key": "energyDrinks",
+    "en": "Energy Drinks",
+    "ar": ""
+  },
+  {
+    "key": "iceTea",
+    "en": "Ice Tea",
+    "ar": ""
+  },
+  {
+    "key": "sportDrinks",
+    "en": "Sport Drinks",
+    "ar": ""
+  },
+  {
+    "key": "snacks",
+    "en": "Snacks",
+    "ar": ""
+  }
+]
