@@ -14,6 +14,7 @@ import {colors} from '../../constants/colors';
 import IconCircleButton from '../IconCircleButton/IconCircleButton';
 import {useGetTranslation} from '../../languageSupport/translation';
 import RTLView from '../RTLComponents/RTLView';
+import Cart from '../Cart';
 
 const HeaderImage = ({source}) => {
   return <Image source={source} style={styles.headerImage} />;
@@ -27,6 +28,7 @@ const Header = ({
   titleSlider,
   titleData = [],
 }) => {
+  const [open,setOpen]=useState(false);
   const tl = useGetTranslation();
   const headerImages = [
     images.coldDrinkGif,
@@ -63,7 +65,7 @@ const Header = ({
   useEffect(() => {
     if (titleSlider) setActiveCategory(titleData[0]);
   }, []);
-
+  console.log(open)
   return (
     <View style={styles.container}>
       <RTLView style={styles.top}>
@@ -78,7 +80,7 @@ const Header = ({
             </Text>
           </RTLView>
         </Pressable>
-        {!noCart && <IconCircleButton icon={icons.cart} />}
+        {!noCart && <IconCircleButton icon={icons.cart} onPress={()=>setOpen(true)}/>}
       </RTLView>
       {isHome && (
         <Pressable onPress={changeItem}>
@@ -97,7 +99,7 @@ const Header = ({
       {!isHome && (
         <View style={[styles.content, {backgroundColor: color}]}>
           {!titleSlider ? (
-            <Text style={styles.title}>{text}</Text>
+            <Text  numberOfLines={1} style={styles.title}>{text}</Text>
           ) : (
             <FlatList
               data={titleData}
@@ -127,6 +129,7 @@ const Header = ({
           )}
         </View>
       )}
+      <Cart open={open} setOpen={setOpen}/>
     </View>
   );
 };

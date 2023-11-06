@@ -2,7 +2,7 @@ import {createSlice} from '@reduxjs/toolkit';
 import {allowedLanguages} from '../../languageSupport/allowedLanguages';
 
 const initialState = {
-  language: allowedLanguages.ar,
+  language: allowedLanguages.en,
   direction: 'ltr',
 };
 

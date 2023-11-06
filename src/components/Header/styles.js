@@ -57,7 +57,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   title: {
-    fontSize: 50,
+    fontSize: 45,
     color: colors.white,
     fontFamily: 'Montreal',
     textTransform: 'uppercase',

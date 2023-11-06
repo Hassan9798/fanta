@@ -4,7 +4,7 @@ import { icons, images } from '../../constants/images'
 
 
 const {width} = Dimensions.get('window');
-const Product = ({item,height,width,style}) => {
+const Product = ({item,height,width,style,bottomWidth}) => {
   const arr=[
     icons.removeIcon,
     icons.addIcon
@@ -20,7 +20,7 @@ const Product = ({item,height,width,style}) => {
     </View>
     <View style={{flexDirection:'row'}}>
     {arr.map((item,index)=>
-    <View style={[styles.bottom,{borderLeftWidth:index === 0?2:0}]}>
+    <View style={[styles.bottom,{borderLeftWidth:index === 0?2:0,width:bottomWidth}]}>
       <Image source={item} resizeMode='cover' style={{height:24,width:24}}/>
     </View>
     )  
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         borderBottomWidth:2,
         borderColor:"#DEDEDE",
         height:450,
-        width:(width/2)-5,
+        
         borderRadius:2,
         paddingLeft:10,
         justifyContent:'flex-start',
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     },
     bottom:{
       height:50,
-      width:(((width/2)-5)/2)-12,
+     
       borderColor:"#DEDEDE",
       borderRightWidth:2,
       borderTopWidth:2,
