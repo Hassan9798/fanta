@@ -12,6 +12,8 @@ import {styles} from './styles';
 import {icons, images} from '../../constants/images';
 import {colors} from '../../constants/colors';
 import IconCircleButton from '../IconCircleButton/IconCircleButton';
+import {useGetTranslation} from '../../languageSupport/translation';
+import RTLView from '../RTLComponents/RTLView';
 
 const HeaderImage = ({source}) => {
   return <Image source={source} style={styles.headerImage} />;
@@ -23,8 +25,9 @@ const Header = ({
   color = colors.blue,
   noCart,
   titleSlider,
-  titleData = ['cdc', 'cdvfv', 'rffrf', 'cdfv'],
+  titleData = [],
 }) => {
+  const tl = useGetTranslation();
   const headerImages = [
     images.coldDrinkGif,
     images.headerImage2,
@@ -63,22 +66,20 @@ const Header = ({
 
   return (
     <View style={styles.container}>
-      <View style={styles.top}>
-        <Pressable
-          style={[styles.menu, isHome ? {} : styles.whiteBg]}
-          onPress={handleDrawer}>
-          <Image
-            source={isHome ? icons.menu : icons.back}
-            style={[styles.menuIcon, isHome ? {} : styles.backIcon]}
-          />
-          <Text style={[styles.menuText, isHome ? {} : styles.blueText]}>
-            {isHome ? 'Menu' : 'Home'}
-          </Text>
+      <RTLView style={styles.top}>
+        <Pressable onPress={handleDrawer}>
+          <RTLView style={[styles.menu, isHome ? {} : styles.whiteBg]}>
+            <Image
+              source={isHome ? icons.menu : icons.back}
+              style={[styles.menuIcon, isHome ? {} : styles.backIcon]}
+            />
+            <Text style={[styles.menuText, isHome ? {} : styles.blueText]}>
+              {isHome ? tl('menu') : tl('home')}
+            </Text>
+          </RTLView>
         </Pressable>
-        {!noCart && (
-          <IconCircleButton icon={icons.cart} />
-        )}
-      </View>
+        {!noCart && <IconCircleButton icon={icons.cart} />}
+      </RTLView>
       {isHome && (
         <Pressable onPress={changeItem}>
           <FlatList

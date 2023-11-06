@@ -15,7 +15,6 @@ export const styles = StyleSheet.create({
   top: {
     position: 'absolute',
     width: '100%',
-    flexDirection: 'row',
     justifyContent: 'space-between',
     paddingHorizontal: 20,
     alignItems: 'center',
@@ -24,11 +23,11 @@ export const styles = StyleSheet.create({
   },
   menu: {
     backgroundColor: colors.darkBlue,
-    flexDirection: 'row',
     paddingHorizontal: 18,
     paddingVertical: 14,
     borderRadius: 30,
     alignItems: 'center',
+    columnGap: 20,
   },
   whiteBg: {
     backgroundColor: colors.white,
@@ -36,7 +35,6 @@ export const styles = StyleSheet.create({
   menuIcon: {
     width: 20,
     height: 18,
-    marginRight: 22,
   },
   backIcon: {
     width: 13,
@@ -51,7 +49,7 @@ export const styles = StyleSheet.create({
   blueText: {
     color: '#092445',
   },
- 
+
   content: {
     paddingHorizontal: 20,
     paddingVertical: 20,
