@@ -32,7 +32,7 @@ const Home = ({navigation}) => {
         <View>
       <Header isHome />
       <View style={style.brandSlider}>
-      <Brands navigation={navigation}/>
+      <Brands navigation={navigation} />
       </View>
       </View>
       <HomeSlider
@@ -40,6 +40,8 @@ const Home = ({navigation}) => {
         bottomText={true}
         marginTop={50}
         slider1={true}
+        categories={true}
+        navigation={navigation}
       />
       <HomeSlider data={snacks} topText={true} />
       <Footer />

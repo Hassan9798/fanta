@@ -34,10 +34,11 @@ const BrandProduct = ({route,navigation}) => {
       // marginLeft:index===0 || Number.isInteger(index/2)?6:"",
       borderLeftWidth:index===0 || Number.isInteger(index/2)?2:0,
       borderBottomWidth:index===products.length-1 ||index === products.length-2?2:0,
+      width:(width/2)-5,
       // marginRight:!Number.isInteger(index/2)?5:0
       }
       }
-  
+      bottomWidth={(((width/2)-5)/2)-12}
       height={200}
       width={"90%"}
      />
