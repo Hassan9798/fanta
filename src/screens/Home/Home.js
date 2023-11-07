@@ -6,6 +6,7 @@ import {images} from '../../constants/images';
 import HomeSlider from '../../components/HomeSlider';
 import Footer from '../../components/Footer/Footer';
 import {useGetTranslation} from '../../languageSupport/translation';
+import { colors } from '../../constants/colors';
 
 const Home = ({navigation}) => {
   const tl = useGetTranslation();
@@ -26,11 +27,13 @@ const Home = ({navigation}) => {
   return (
     <ScrollView
       style={{
-        backgroundColor: '#FFFFFF',
+        backgroundColor: colors.white,
       }}>
+        <View>
       <Header isHome />
       <View style={style.brandSlider}>
       <Brands navigation={navigation}/>
+      </View>
       </View>
       <HomeSlider
         data={categories}

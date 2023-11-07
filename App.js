@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-import {SafeAreaView} from 'react-native';
+import {Button, SafeAreaView,Text} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import MainNavigation from './src/navigation/MainNavigation';
 import {Provider} from 'react-redux';
@@ -9,12 +9,12 @@ import {persistor, store} from './src/redux/store';
 const App = () => {
   return (
     <Provider store={store}>
-      <PersistGate persistor={persistor} loading={null}>
+       <PersistGate persistor={persistor} loading={null}>
         <NavigationContainer>
           <SafeAreaView style={{flex: 1}}>
             <MainNavigation />
           </SafeAreaView>
-        </NavigationContainer>
+          </NavigationContainer>
       </PersistGate>
     </Provider>
   );

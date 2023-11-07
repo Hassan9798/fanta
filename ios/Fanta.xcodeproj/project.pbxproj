@@ -12,14 +12,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		35CB39015D2F42BEA43B4013 /* Montreal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F30023AB14A4CC28B70CA1E /* Montreal.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Fanta-FantaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Fanta-FantaTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		ADEE834432384AAA98E2EAAE /* Inter-300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 584112F0A38C4636AB796BD5 /* Inter-300.ttf */; };
 		B868A4F1F08F43A98A487B52 /* Inter-500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07F1E91D5BEA4B1597C60A9D /* Inter-500.ttf */; };
 		D158655F72BE4D3BB3B3BFDF /* Inter-600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C03C0E6302445BAB60FC705 /* Inter-600.ttf */; };
-		ECD51610CADC4CE2A69700F4 /* Inter-700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 622211C32B8A474C805117F6 /* Inter-700.ttf */; };
 		E7F4322847724D35B4DD73AE /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD2236BE2CAE4B079EAED197 /* Inter.ttf */; };
-		35CB39015D2F42BEA43B4013 /* Montreal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F30023AB14A4CC28B70CA1E /* Montreal.ttf */; };
+		ECD51610CADC4CE2A69700F4 /* Inter-700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 622211C32B8A474C805117F6 /* Inter-700.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 		00E356EE1AD99517003FC87E /* FantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FantaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FantaTests.m; sourceTree = "<group>"; };
+		07F1E91D5BEA4B1597C60A9D /* Inter-500.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-500.ttf"; path = "../src/assets/fonts/Inter-500.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Fanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Fanta/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Fanta/AppDelegate.mm; sourceTree = "<group>"; };
@@ -43,19 +44,18 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Fanta/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Fanta/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Fanta-FantaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanta-FantaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C03C0E6302445BAB60FC705 /* Inter-600.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-600.ttf"; path = "../src/assets/fonts/Inter-600.ttf"; sourceTree = "<group>"; };
+		2F30023AB14A4CC28B70CA1E /* Montreal.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Montreal.ttf; path = ../src/assets/fonts/Montreal.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Fanta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanta.debug.xcconfig"; path = "Target Support Files/Pods-Fanta/Pods-Fanta.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Fanta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanta.release.xcconfig"; path = "Target Support Files/Pods-Fanta/Pods-Fanta.release.xcconfig"; sourceTree = "<group>"; };
+		584112F0A38C4636AB796BD5 /* Inter-300.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-300.ttf"; path = "../src/assets/fonts/Inter-300.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Fanta-FantaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanta-FantaTests.debug.xcconfig"; path = "Target Support Files/Pods-Fanta-FantaTests/Pods-Fanta-FantaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Fanta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fanta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		622211C32B8A474C805117F6 /* Inter-700.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-700.ttf"; path = "../src/assets/fonts/Inter-700.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Fanta/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Fanta-FantaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanta-FantaTests.release.xcconfig"; path = "Target Support Files/Pods-Fanta-FantaTests/Pods-Fanta-FantaTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD2236BE2CAE4B079EAED197 /* Inter.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Inter.ttf; path = ../src/assets/fonts/Inter.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		584112F0A38C4636AB796BD5 /* Inter-300.ttf */ = {isa = PBXFileReference; name = "Inter-300.ttf"; path = "../src/assets/fonts/Inter-300.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		07F1E91D5BEA4B1597C60A9D /* Inter-500.ttf */ = {isa = PBXFileReference; name = "Inter-500.ttf"; path = "../src/assets/fonts/Inter-500.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2C03C0E6302445BAB60FC705 /* Inter-600.ttf */ = {isa = PBXFileReference; name = "Inter-600.ttf"; path = "../src/assets/fonts/Inter-600.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		622211C32B8A474C805117F6 /* Inter-700.ttf */ = {isa = PBXFileReference; name = "Inter-700.ttf"; path = "../src/assets/fonts/Inter-700.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AD2236BE2CAE4B079EAED197 /* Inter.ttf */ = {isa = PBXFileReference; name = "Inter.ttf"; path = "../src/assets/fonts/Inter.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2F30023AB14A4CC28B70CA1E /* Montreal.ttf */ = {isa = PBXFileReference; name = "Montreal.ttf"; path = "../src/assets/fonts/Montreal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +118,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3F48E5DCF12E4A879518D77B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				584112F0A38C4636AB796BD5 /* Inter-300.ttf */,
+				07F1E91D5BEA4B1597C60A9D /* Inter-500.ttf */,
+				2C03C0E6302445BAB60FC705 /* Inter-600.ttf */,
+				622211C32B8A474C805117F6 /* Inter-700.ttf */,
+				AD2236BE2CAE4B079EAED197 /* Inter.ttf */,
+				2F30023AB14A4CC28B70CA1E /* Montreal.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,20 +174,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		3F48E5DCF12E4A879518D77B /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				584112F0A38C4636AB796BD5 /* Inter-300.ttf */,
-				07F1E91D5BEA4B1597C60A9D /* Inter-500.ttf */,
-				2C03C0E6302445BAB60FC705 /* Inter-600.ttf */,
-				622211C32B8A474C805117F6 /* Inter-700.ttf */,
-				AD2236BE2CAE4B079EAED197 /* Inter.ttf */,
-				2F30023AB14A4CC28B70CA1E /* Montreal.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -597,7 +597,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -605,6 +605,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -625,12 +626,18 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -668,9 +675,13 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -688,12 +699,18 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

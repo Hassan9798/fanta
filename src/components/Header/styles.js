@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingHorizontal: 20,
     alignItems: 'center',
-    zIndex: 100,
+    zIndex: 1000,
     top: 20,
   },
   menu: {

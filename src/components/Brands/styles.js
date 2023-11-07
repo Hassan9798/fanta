@@ -3,8 +3,7 @@ const {width} = Dimensions.get('window');
 export const style= StyleSheet.create({
     brandsContainer:{
         width,
-        height:100
-        // paddingLeft:24,
+        height:100,
     },
     brandsWrapper:{
         height:80,
