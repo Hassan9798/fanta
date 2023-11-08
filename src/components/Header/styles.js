@@ -1,5 +1,6 @@
 import {Dimensions, StyleSheet} from 'react-native';
 import {colors} from '../../constants/colors';
+import { fonts } from '../../constants/fonts';
 
 const {width} = Dimensions.get('window');
 
@@ -38,10 +39,9 @@ export const styles = StyleSheet.create({
   },
   backIcon: {
     width: 13,
-    marginRight: 16,
   },
   menuText: {
-    fontFamily: 'Montreal',
+    fontFamily: fonts.montreal,
     color: colors.white,
     fontSize: 16,
     textTransform: 'uppercase',
@@ -59,7 +59,7 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 45,
     color: colors.white,
-    fontFamily: 'Montreal',
+    fontFamily: fonts.montreal,
     textTransform: 'uppercase',
     marginRight: 20,
   },

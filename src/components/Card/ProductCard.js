@@ -1,5 +1,6 @@
 import { View, Text, Image, StyleSheet } from 'react-native'
-import React from 'react'
+import {fonts} from "../../constants/fonts"
+import RTLText from '../RTLComponents/RTLText'
 
 const ProductCard = ({
     topText,
@@ -10,22 +11,22 @@ const ProductCard = ({
 }) => {
   return (
     <View style={style.container}>
-        {topText && <Text style={style.topText}>{topText}</Text>}
+        {topText && <RTLText style={style.topText}>{topText}</RTLText>}
      <Image source={img} resizeMode='cover' style={{width: width??275,height: height??350}}  />
-     {bottomText && <Text style={[style.bottomtext]}>{bottomText}</Text>}
+     {bottomText && <RTLText style={[style.bottomtext]}>{bottomText}</RTLText>}
     </View>
   )
 }
 const style = StyleSheet.create({
     bottomtext:{
         textAlign:'center',
-        fontFamily:'Montreal',
+        fontFamily:fonts.montreal,
         fontSize:30,
         color:'#B2B2B2',
     },
     topText:{
         textAlign:'center',
-        fontFamily:'Montreal',
+        fontFamily:fonts.montreal,
         fontSize:30,
         color:'#FFF',
         textShadowColor:"gray",

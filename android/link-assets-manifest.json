@@ -2,28 +2,44 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "src/assets/fonts/Inter-300.ttf",
-      "sha1": "cbb2506d8da21edbb2dc8cfa26e3b42a97d138f8"
-    },
-    {
-      "path": "src/assets/fonts/Inter-500.ttf",
-      "sha1": "e76f580811e031813e7150131a0724811cdd737a"
-    },
-    {
-      "path": "src/assets/fonts/Inter-600.ttf",
-      "sha1": "5e0c44e57e7e090252d79f622899e67585bb892c"
-    },
-    {
-      "path": "src/assets/fonts/Inter-700.ttf",
+      "path": "src/assets/fonts/Inter-Bold.ttf",
       "sha1": "47ff07c75746682133b81e7ac0537ce50a4c9916"
     },
     {
-      "path": "src/assets/fonts/Inter.ttf",
+      "path": "src/assets/fonts/Inter-ExtraBold.ttf",
+      "sha1": "c9b3d2f2449ab2c67ff075f806973fa3d7e104b3"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Light.ttf",
+      "sha1": "cbb2506d8da21edbb2dc8cfa26e3b42a97d138f8"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Medium.ttf",
+      "sha1": "e76f580811e031813e7150131a0724811cdd737a"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Regular.ttf",
       "sha1": "cfa780d0b50b2bb7eacb82984f1b18a95aaa40c5"
     },
     {
-      "path": "src/assets/fonts/Montreal.ttf",
-      "sha1": "c6cf901fad1f0dd30d3ef7db37a45e0c919c1148"
+      "path": "src/assets/fonts/Inter-SemiBold.ttf",
+      "sha1": "5e0c44e57e7e090252d79f622899e67585bb892c"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-Medium.ttf",
+      "sha1": "7b93e52dc59bc6eb3b374b860c203cbe726c3c31"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-Regular.ttf",
+      "sha1": "9d7091d63f35c9d28518b06566442a02b306980a"
+    },
+    {
+      "path": "src/assets/fonts/Rubik-SemiBold.ttf",
+      "sha1": "01a4b4fee8dbf9802ccb6256fdf53b3a86f2fcec"
+    },
+    {
+      "path": "src/assets/fonts/montreal-serial-heavy-regularitalic.ttf",
+      "sha1": "1e71b8ccc9e6b06aa20e3228e82c004f0086c7e7"
     }
   ]
 }

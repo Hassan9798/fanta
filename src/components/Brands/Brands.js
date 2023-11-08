@@ -22,7 +22,7 @@ const Brands = ({navigation,marginTop}) => {
       <RTLHorizontalFlatlist
         data={brands}
         keyExtractor={item => item.id}
-        ListHeaderComponent={() => {<EmptyComponent width={24} />}}
+        ListHeaderComponent={() => <EmptyComponent width={24} />}
         ListFooterComponent={() => <EmptyComponent width={12} />}
         ItemSeparatorComponent={() => <EmptyComponent width={12} />}
         renderItem={({item}) => {

@@ -53,12 +53,16 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Inter-300.ttf</string>
-		<string>Inter-500.ttf</string>
-		<string>Inter-600.ttf</string>
-		<string>Inter-700.ttf</string>
-		<string>Inter.ttf</string>
-		<string>Montreal.ttf</string>
+		<string>Inter-Bold.ttf</string>
+		<string>Inter-ExtraBold.ttf</string>
+		<string>Inter-Light.ttf</string>
+		<string>Inter-Medium.ttf</string>
+		<string>Inter-Regular.ttf</string>
+		<string>Inter-SemiBold.ttf</string>
+		<string>montreal-serial-heavy-regularitalic.ttf</string>
+		<string>Rubik-Regular.ttf</string>
+		<string>Rubik-Medium.ttf</string>
+		<string>Rubik-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

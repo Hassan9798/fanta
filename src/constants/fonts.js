@@ -1,8 +1,13 @@
 export const fonts = {
-  inter: 'Inter',
-  inter300: 'Inter-300',
-  inter500: 'Inter-500',
-  inter600: 'Inter-600',
-  inter700: 'Inter-700',
-  montreal: 'Montreal',
+  inter: 'Inter-Regular',
+  inter300: 'Inter-Light',
+  inter500: 'Inter-Medium',
+  inter600: 'Inter-SemiBold',
+  inter700: 'Inter-Bold',
+  inter700: 'Inter-ExtraBold',
+  montreal: 'montreal-serial-heavy-regularitalic',
+  rubik : 'Rubik-Regular',
+  rubikItalic : 'Rubik-Italic',
+  rubik500 : "Rubik-Medium",
+  rubik600 : "Rubik-SemiBold"
 };

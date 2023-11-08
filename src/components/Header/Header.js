@@ -15,6 +15,7 @@ import IconCircleButton from '../IconCircleButton/IconCircleButton';
 import {useGetTranslation} from '../../languageSupport/translation';
 import RTLView from '../RTLComponents/RTLView';
 import Cart from '../Cart';
+import RTLText from '../RTLComponents/RTLText';
 
 const HeaderImage = ({source}) => {
   return <Image source={source} style={styles.headerImage} />;
@@ -65,7 +66,6 @@ const Header = ({
   useEffect(() => {
     if (titleSlider) setActiveCategory(titleData[0]);
   }, []);
-  console.log(open)
   return (
     <View style={styles.container}>
       <RTLView style={styles.top}>
@@ -75,9 +75,9 @@ const Header = ({
               source={isHome ? icons.menu : icons.back}
               style={[styles.menuIcon, isHome ? {} : styles.backIcon]}
             />
-            <Text style={[styles.menuText, isHome ? {} : styles.blueText]}>
+            <RTLText style={[styles.menuText, isHome ? {} : styles.blueText]}>
               {isHome ? tl('menu') : tl('home')}
-            </Text>
+            </RTLText>
           </RTLView>
         </Pressable>
         {!noCart && <IconCircleButton icon={icons.cart} onPress={()=>setOpen(true)}/>}

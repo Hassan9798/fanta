@@ -8,6 +8,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {useGetTranslation} from '../../languageSupport/translation';
 import {allowedLanguages} from '../../languageSupport/allowedLanguages';
 import {setLanguage} from '../../redux/slices/languageSlice';
+import RTLText from '../RTLComponents/RTLText';
 
 const Drawer = ({navigation}) => {
   const tl = useGetTranslation();
@@ -32,46 +33,46 @@ const Drawer = ({navigation}) => {
       style={styles.container}>
       <View style={styles.top}>
         <TouchableOpacity onPress={onLanguageChange}>
-          <Text style={styles.rtl}>{tl('languageToggle')}</Text>
+          <RTLText style={styles.rtl} ltr>{tl('languageToggle')}</RTLText>
         </TouchableOpacity>
         <IconCircleButton icon={icons.close} onPress={closeDrawer} />
       </View>
       <View style={styles.content}>
         <View style={styles.userInfo}>
-          <Text style={[styles.largeText, styles.text]}>{tl('hey')}</Text>
-          <Text style={[styles.largeText, styles.text]}>{tl('mashael')}</Text>
+          <RTLText style={[styles.largeText, styles.text]}>{tl('hey')}</RTLText>
+          <RTLText style={[styles.largeText, styles.text]}>{tl('mashael')}</RTLText>
           <TouchableOpacity>
-            <Text style={[styles.smallText, styles.text, styles.settings]}>
+            <RTLText style={[styles.smallText, styles.text, styles.settings]}>
               {tl('settings')}
-            </Text>
+            </RTLText>
           </TouchableOpacity>
         </View>
         <View style={styles.navItems}>
           <TouchableOpacity>
-            <Text style={[styles.largeText, styles.text]}>
+            <RTLText style={[styles.largeText, styles.text]}>
               {tl('specialDeals')}
-            </Text>
+            </RTLText>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Text style={[styles.largeText, styles.text]}>
+            <RTLText style={[styles.largeText, styles.text]}>
               {tl('yourOrders')}
-            </Text>
+            </RTLText>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Text style={[styles.largeText, styles.text]}>
+            <RTLText style={[styles.largeText, styles.text]}>
               {tl('contactUs')}
-            </Text>
+            </RTLText>
           </TouchableOpacity>
         </View>
         <View style={styles.bottom}>
           <TouchableOpacity>
-            <Text style={[styles.smallText, styles.text]}>
+            <RTLText style={[styles.smallText, styles.text]}>
               {tl('termsAndConditions')}
-            </Text>
+            </RTLText>
           </TouchableOpacity>
-          <Text style={[styles.smallText, styles.text, styles.lightBlueText]}>
+          <RTLText style={[styles.smallText, styles.text, styles.lightBlueText]}>
             {tl('2023Menabev')}
-          </Text>
+          </RTLText>
         </View>
       </View>
     </LinearGradient>

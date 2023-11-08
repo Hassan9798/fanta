@@ -7,10 +7,10 @@ const RTLView = ({children, ...props}) => {
     <View
       {...props}
       style={[
+        props.style,
         {
           flexDirection: direction === 'rtl' ? 'row-reverse' : 'row',
         },
-        props.style,
       ]}>
       {children}
     </View>

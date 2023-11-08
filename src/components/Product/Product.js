@@ -1,6 +1,7 @@
 import { Dimensions, Image, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { icons, images } from '../../constants/images'
+import { fonts } from '../../constants/fonts';
 
 
 const {width} = Dimensions.get('window');
@@ -15,8 +16,8 @@ const Product = ({item,height,width,style,bottomWidth}) => {
     <Text style={styles.title}>{item.name}</Text>
     <Text style={styles.desc}>{"250ml"}</Text>
     <View style={styles.price}>
-    <Text style={[styles.desc,{fontFamily:"Inter-600",fontSize:18}]}>{"SR 22.51"}</Text>
-    <Text style={[styles.desc,{fontFamily:"Inter-300",color:"#808080",fontSize:18,textDecorationLine:"line-through" }]}>{"SR 22.51"}</Text>
+    <Text style={[styles.desc,{fontFamily:fonts.inter300,fontSize:18}]}>{"SR 22.51"}</Text>
+    <Text style={[styles.desc,{fontFamily:fonts.inter300,color:"#808080",fontSize:18,textDecorationLine:"line-through" }]}>{"SR 22.51"}</Text>
     </View>
     <View style={{flexDirection:'row'}}>
     {arr.map((item,index)=>
@@ -48,12 +49,12 @@ const styles = StyleSheet.create({
         gap:10
     },
     title:{
-      fontFamily:"Montreal",
+      fontFamily:fonts.montreal,
       fontSize:30,
       color:"black"
     },
     desc:{
-      fontFamily:"Inter-300",
+      fontFamily:fonts.inter300,
       fontSize:20,
       color:"#000"
     },

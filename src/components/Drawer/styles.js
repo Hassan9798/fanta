@@ -1,5 +1,6 @@
 import {StyleSheet} from 'react-native';
 import {colors} from '../../constants/colors';
+import { fonts } from '../../constants/fonts';
 
 export const styles = StyleSheet.create({
   container: {
@@ -18,7 +19,7 @@ export const styles = StyleSheet.create({
   },
   rtl: {
     color: colors.white,
-    fontFamily: 'Montreal',
+    fontFamily: fonts.montreal,
     fontSize: 22,
   },
   content: {
@@ -37,7 +38,7 @@ export const styles = StyleSheet.create({
     marginVertical: 16,
   },
   text: {
-    fontFamily: 'Montreal',
+    fontFamily: fonts.montreal,
     color: colors.white,
     textTransform: 'uppercase',
   },
