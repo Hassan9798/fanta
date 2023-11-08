@@ -30,6 +30,8 @@ const emptyCart = require('../assets/images/emptyCart.gif');
 const addIcon = require('../assets/images/addIcon.png');
 const removeIcon = require('../assets/images/removeIcon.png');
 const closeIcon = require('../assets/images/close2.png');
+const bottle25L = require("../assets/images/bottle-2.25L.png")
+
 export const images = {
     footerImg2,
     footerImg1,
@@ -55,6 +57,7 @@ export const images = {
     snack3,
     snack4,
     specialDeals,
-    emptyCart
+    emptyCart,
+    bottle25L
 };
 export const icons = {menu, cart, back, close ,addIcon ,removeIcon,closeIcon};
