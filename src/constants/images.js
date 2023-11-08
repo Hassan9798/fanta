@@ -26,8 +26,10 @@ const footerImg1 = require('../assets/images/footerImg1.png');
 const footerImg2 = require('../assets/images/footerImg2.png');
 const specialDeals = require('../assets/images/specialDeals.png');
 const product1 = require('../assets/images/product1.png');
+const emptyCart = require('../assets/images/emptyCart.gif');
 const addIcon = require('../assets/images/addIcon.png');
 const removeIcon = require('../assets/images/removeIcon.png');
+const closeIcon = require('../assets/images/close2.png');
 export const images = {
     footerImg2,
     footerImg1,
@@ -52,6 +54,7 @@ export const images = {
     snack2,
     snack3,
     snack4,
-    specialDeals
+    specialDeals,
+    emptyCart
 };
-export const icons = {menu, cart, back, close ,addIcon ,removeIcon};
+export const icons = {menu, cart, back, close ,addIcon ,removeIcon,closeIcon};

@@ -14,7 +14,7 @@ const SpecialDeals = () => {
   return (
     <ScrollView style={{backgroundColor:"#FFFFFF"}}>
      <Header text={"Special Deals"} color='#000'/>
-     <View style={{marginBottom:20}}>
+     <View style={{marginBottom:20,marginTop:10}}>
      <FlatList
      data={deals}
      style={{
@@ -27,6 +27,7 @@ const SpecialDeals = () => {
      length={deals.length} 
      style={{
       borderWidth:2,
+      paddingTop:10,
       // // marginLeft:index===0 || Number.isInteger(index/2)?6:"",
       // borderLeftWidth:index===0 || Number.isInteger(index/2)?2:0,
       borderBottomWidth:index===deals.length-1 ?2:0,
